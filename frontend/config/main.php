@@ -44,6 +44,13 @@ return [
             ],
         ],
         */
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@app/views' => '@frontend/themes/kongoon/views',
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
